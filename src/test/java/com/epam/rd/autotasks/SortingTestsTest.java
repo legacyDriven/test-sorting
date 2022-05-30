@@ -41,7 +41,7 @@ public class SortingTestsTest {
             }
         }
 
-        assertNotNull(nullCaseFailure);
+        assertNotNull(nullCaseFailure); //
         assertNotNull(otherCasesFailure);
 
         assertThat(nullCaseFailure.getException(), instanceOf(AssertionError.class));

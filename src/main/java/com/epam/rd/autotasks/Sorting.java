@@ -1,5 +1,7 @@
 package com.epam.rd.autotasks;
 
+import java.util.Objects;
+
 public class Sorting {
 
     public Sorting() {
@@ -21,5 +23,8 @@ public class Sorting {
 
     public static void main(String[] args) {
         System.out.println(Runtime.getRuntime().availableProcessors());
+        int[] nullArray = null;
+        Sorting sorting = new Sorting();
+        sorting.sort(nullArray);
     }
 }
